@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato | EcoTrend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container py-2">
+            <a class="navbar-brand brand d-flex align-items-center" href="index.html"><span class="brand-mark"><i
+                        class="fa-solid fa-leaf"></i></span>EcoTrend</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link " href="index.html"><i
+                                class="fa-solid fa-house me-1"></i>Início</a></li>
+                    <li class="nav-item"><a class="nav-link " href="produtos.html"><i
+                                class="fa-solid fa-grid-2 me-1"></i>Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link " href="sobre.html"><i
+                                class="fa-solid fa-users me-1"></i>Sobre nós</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contato.html"><i
+                                class="fa-solid fa-envelope me-1"></i>Contato</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                    <button class="icon-btn theme-toggle" title="Modo escuro"><i class="fa-solid fa-moon"></i></button>
+                    <a class="icon-btn position-relative" href="carrinho.html" title="Carrinho"><i
+                            class="fa-solid fa-bag-shopping"></i><span
+                            class="badge rounded-pill bg-success cart-badge cart-count">0</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="page-head">
+        <div class="container">
+            <div class="eyebrow">Fale conosco</div>
+            <h1 class="section-title">Entre em contato</h1>
+            <p class="text-secondary mb-0">Tem alguma dúvida? Envie uma mensagem para a EcoTrend.</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="feature">
+                        <h3 class="fw-bold mb-4">Envie sua mensagem</h3>
+                        <form
+                            onsubmit="event.preventDefault();showToast('Mensagem enviada com sucesso! 💚');this.reset()">
+                            <div class="row g-3">
+                                <div class="col-md-6"><label class="form-label">Nome</label><input class="form-control"
+                                        required></div>
+                                <div class="col-md-6"><label class="form-label">E-mail</label><input type="email"
+                                        class="form-control" required></div>
+                                <div class="col-12"><label class="form-label">Assunto</label><input class="form-control"
+                                        required></div>
+                                <div class="col-12"><label class="form-label">Mensagem</label><textarea
+                                        class="form-control" rows="6" required></textarea></div>
+                                <div class="col-12"><button class="btn btn-eco" type="submit"><i
+                                            class="fa-solid fa-paper-plane me-2"></i>Enviar mensagem</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="feature mb-3"><i class="fa-solid fa-envelope"></i>
+                        <h5 class="fw-bold mt-3">E-mail</h5>
+                        <p class="text-secondary">contato@ecotrend.com</p>
+                    </div>
+                    <div class="feature mb-3"><i class="fa-brands fa-whatsapp"></i>
+                        <h5 class="fw-bold mt-3">WhatsApp</h5>
+                        <p class="text-secondary">(11) 99999-9999</p>
+                    </div>
+                    <div class="feature"><i class="fa-regular fa-clock"></i>
+                        <h5 class="fw-bold mt-3">Atendimento</h5>
+                        <p class="text-secondary mb-0">Segunda a sexta, das 9h às 18h.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h4 class="footer-title"><i class="fa-solid fa-leaf me-2"></i>EcoTrend</h4>
+                    <p class="mt-3">Vista seu estilo. Preserve o futuro. Moda e acessórios com escolhas mais
+                        conscientes.</p>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h6 class="footer-title">Navegação</h6>
+                    <div class="d-grid gap-2 mt-3"><a href="index.html">Início</a><a href="produtos.html">Produtos</a><a
+                            href="sobre.html">Sobre nós</a><a href="contato.html">Contato</a></div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h6 class="footer-title">Atendimento</h6>
+                    <div class="d-grid gap-2 mt-3"><span>contato@ecotrend.com</span><span>(11)
+                            99999-9999</span><span>Seg–Sex, 9h às 18h</span></div>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="footer-title">Siga a EcoTrend</h6>
+                    <div class="fs-4 d-flex gap-3 mt-3"><a href="#"><i class="fa-brands fa-instagram"></i></a><a
+                            href="#"><i class="fa-brands fa-facebook"></i></a><a href="#"><i
+                                class="fa-brands fa-tiktok"></i></a></div>
+                </div>
+            </div>
+            <hr class="border-secondary mt-5">
+            <div class="text-center small">© 2026 EcoTrend — Projeto acadêmico. Todos os direitos reservados.</div>
+        </div>
+    </footer>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="toast" class="toast" role="alert">
+            <div class="toast-header"><i class="fa-solid fa-circle-check text-success me-2"></i><strong
+                    class="me-auto">EcoTrend</strong><button type="button" class="btn-close"
+                    data-bs-dismiss="toast"></button></div>
+            <div class="toast-body">Produto adicionado!</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
