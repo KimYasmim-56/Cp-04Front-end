@@ -26,7 +26,7 @@
                     <li class="nav-item"><a class="nav-link active" href="index.html"><i
                                 class="fa-solid fa-house me-1"></i>Início</a></li>
                     <li class="nav-item"><a class="nav-link " href="produtos.html"><i
-                                class="fa-solid fa-grid-2 me-1"></i>Produtos</a></li>
+                                class="fa-solid fa-table-cells-large me-1"></i>Produtos</a></li>
                     <li class="nav-item"><a class="nav-link " href="sobre.html"><i
                                 class="fa-solid fa-users me-1"></i>Sobre nós</a></li>
                     <li class="nav-item"><a class="nav-link " href="contato.html"><i
@@ -56,6 +56,55 @@
             </div>
         </div>
     </section>
+    <section class="section pt-0">
+        <div class="container">
+            <div id="ecoCarousel" class="carousel slide shadow-sm rounded-4 overflow-hidden" data-bs-ride="carousel">
+                <div class="carousel-indicators"><button type="button" data-bs-target="#ecoCarousel"
+                        data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button
+                        type="button" data-bs-target="#ecoCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button><button type="button" data-bs-target="#ecoCarousel"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button></div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><img
+                            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1400&q=80"
+                            class="d-block w-100" style="height:360px;object-fit:cover" alt="Moda sustentável"
+                            onerror="this.onerror=null;this.src='assets/roupas.svg'">
+                        <div class="carousel-caption text-start"><span class="badge bg-success mb-2">DESTAQUE</span>
+                            <h2 class="fw-bold">Moda que respeita o futuro</h2>
+                            <p>Peças produzidas com materiais mais conscientes.</p><a href="produtos.html?cat=Roupas"
+                                class="btn btn-light">Ver roupas</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item"><img
+                            src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1400&q=80"
+                            class="d-block w-100" style="height:360px;object-fit:cover" alt="Beleza natural"
+                            onerror="this.onerror=null;this.src='assets/beleza.svg'">
+                        <div class="carousel-caption text-start"><span class="badge bg-success mb-2">NOVIDADE</span>
+                            <h2 class="fw-bold">Beleza natural</h2>
+                            <p>Cuidados pessoais com escolhas mais conscientes.</p><a
+                                href="produtos.html?cat=Beleza%20e%20Cuidados%20Naturais"
+                                class="btn btn-light">Explorar</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item"><img
+                            src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80"
+                            class="d-block w-100" style="height:360px;object-fit:cover" alt="Tecnologia verde"
+                            onerror="this.onerror=null;this.src='assets/tecnologia.svg'">
+                        <div class="carousel-caption text-start"><span class="badge bg-success mb-2">TECNOLOGIA
+                                VERDE</span>
+                            <h2 class="fw-bold">Energia e inovação</h2>
+                            <p>Soluções para consumir menos e aproveitar melhor os recursos.</p><a
+                                href="produtos.html?cat=Tecnologia%20Verde" class="btn btn-light">Conhecer</a>
+                        </div>
+                    </div>
+                </div><button class="carousel-control-prev" type="button" data-bs-target="#ecoCarousel"
+                    data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span
+                        class="visually-hidden">Anterior</span></button><button class="carousel-control-next"
+                    type="button" data-bs-target="#ecoCarousel" data-bs-slide="next"><span
+                        class="carousel-control-next-icon"></span><span class="visually-hidden">Próximo</span></button>
+            </div>
+        </div>
+    </section>
     <section class="section">
         <div class="container">
             <div class="text-center mb-5">
@@ -65,32 +114,72 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3"><a class="category-card d-block" href="produtos.html?cat=Roupas"><img
                             src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=900&q=80"
-                            class="w-100" alt="Roupas">
+                            class="w-100" alt="Roupas" onerror="this.onerror=null;this.src='assets/roupas.svg'">
                         <div class="category-overlay">
                             <h4>Roupas</h4><span>Ver produtos →</span>
                         </div>
                     </a></div>
                 <div class="col-md-6 col-lg-3"><a class="category-card d-block" href="produtos.html?cat=Acessórios"><img
                             src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=80"
-                            class="w-100" alt="Acessórios">
+                            class="w-100" alt="Acessórios" onerror="this.onerror=null;this.src='assets/acessorios.svg'">
                         <div class="category-overlay">
                             <h4>Acessórios</h4><span>Ver produtos →</span>
                         </div>
                     </a></div>
                 <div class="col-md-6 col-lg-3"><a class="category-card d-block" href="produtos.html"><img
                             src="https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=900&q=80"
-                            class="w-100" alt="Novidades">
+                            class="w-100" alt="Novidades" onerror="this.onerror=null;this.src='assets/beleza.svg'">
                         <div class="category-overlay">
                             <h4>Novidades</h4><span>Ver produtos →</span>
                         </div>
                     </a></div>
                 <div class="col-md-6 col-lg-3"><a class="category-card d-block" href="produtos.html"><img
                             src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
-                            class="w-100" alt="Estilo">
+                            class="w-100" alt="Estilo" onerror="this.onerror=null;this.src='assets/casa.svg'">
                         <div class="category-overlay">
                             <h4>Estilo</h4><span>Ver produtos →</span>
                         </div>
                     </a></div>
+            </div>
+        </div>
+    </section>
+    <section class="section pt-0">
+        <div class="container">
+            <div class="text-center mb-5">
+                <div class="eyebrow">Tipos de produtos</div>
+                <h2 class="section-title">Mais escolhas para um estilo de vida consciente</h2>
+                <p class="text-secondary">Além de roupas e acessórios, a EcoTrend reúne soluções para beleza, casa e
+                    tecnologia.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature"><i class="fa-solid fa-leaf"></i>
+                        <h4 class="fw-bold mt-3">Beleza e cuidados naturais</h4>
+                        <p class="text-secondary">Produtos de beleza e cuidados pessoais naturais, como sabonetes,
+                            shampoos sólidos e hidratantes botânicos. Uma rotina de autocuidado que valoriza
+                            ingredientes de origem natural e escolhas mais conscientes.</p><a
+                            href="produtos.html?cat=Beleza%20e%20Cuidados%20Naturais"
+                            class="btn btn-outline-eco">Explorar <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature"><i class="fa-solid fa-house"></i>
+                        <h4 class="fw-bold mt-3">Itens para casa</h4>
+                        <p class="text-secondary">Alternativas reutilizáveis e duráveis para o dia a dia, como potes de
+                            vidro, cestos de bambu, velas de soja e produtos que ajudam a diminuir o desperdício dentro
+                            de casa.</p><a href="produtos.html?cat=Itens%20para%20Casa"
+                            class="btn btn-outline-eco">Explorar <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature"><i class="fa-solid fa-solar-panel"></i>
+                        <h4 class="fw-bold mt-3">Tecnologia verde</h4>
+                        <p class="text-secondary">Soluções tecnológicas pensadas para reduzir o consumo de recursos e
+                            incentivar o uso de energia limpa, como carregadores solares, iluminação LED e acessórios
+                            feitos com materiais reciclados.</p><a href="produtos.html?cat=Tecnologia%20Verde"
+                            class="btn btn-outline-eco">Explorar <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

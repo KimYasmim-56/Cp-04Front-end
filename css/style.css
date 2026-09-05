@@ -413,8 +413,3 @@ footer a:hover {
         height: 230px
     }
 }
-
-.dark .toast,
-.dark .toast-body {
-    color: #000 !important;
-}
