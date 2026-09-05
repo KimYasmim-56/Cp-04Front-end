@@ -113,3 +113,9 @@ function initTheme() {
     document.querySelectorAll(".theme-toggle").forEach(b => b.onclick = () => { document.body.classList.toggle("dark"); localStorage.setItem("ecotrend-theme", document.body.classList.contains("dark") ? "dark" : "light") });
 }
 document.addEventListener("DOMContentLoaded", () => { updateCartCount(); initTheme(); initFilters(); renderCart(); initProduct(); renderProducts(products.slice(0, 6), "featured-list"); });
+function showToast(msg) {
+    const el = document.getElementById("toast");
+    if (!el) return;
+    el.querySelector(".toast-body").textContent = msg;
+    bootstrap.Toast.getOrCreateInstance(el).show();
+}
